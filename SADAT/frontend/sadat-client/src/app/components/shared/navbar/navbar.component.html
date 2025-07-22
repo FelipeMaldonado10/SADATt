@@ -1,1 +1,13 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a routerLink="/" class="navbar-title">SADAT</a>
+  </div>
+  <ul class="navbar-links">
+    <li><a routerLink="/" routerLinkActive="active">Inicio</a></li>
+    <li *ngIf="!isLoggedIn"><a routerLink="/register" routerLinkActive="active">Registro</a></li>
+    <li *ngIf="!isLoggedIn"><a routerLink="/login" routerLinkActive="active">Login</a></li>
+    <li *ngIf="isLoggedIn && isAdmin"><a routerLink="/admin" routerLinkActive="active">Panel Admin</a></li>
+    <li *ngIf="isLoggedIn"><a (click)="logout()">Cerrar sesión</a></li>
+  </ul>
+</nav>
+

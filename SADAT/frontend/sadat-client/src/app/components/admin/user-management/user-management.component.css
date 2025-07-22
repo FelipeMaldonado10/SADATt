@@ -1,0 +1,112 @@
+.admin-register-box {
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  background: #e3eafc;
+  padding: 2rem 2.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+}
+.admin-register-box h3 {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.admin-register-box .form-group {
+  margin-bottom: 1rem;
+}
+.admin-register-box label {
+  display: block;
+  color: #37474f;
+  margin-bottom: 0.4rem;
+}
+.admin-register-box input,
+.admin-register-box select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+}
+.admin-register-box button[type="submit"] {
+  width: 100%;
+  padding: 0.7rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  margin-top: 0.7rem;
+  transition: background 0.2s;
+}
+.admin-register-box button[type="submit"]:hover {
+  background: #1565c0;
+}
+.admin-register-box .error {
+  color: #d32f2f;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+.admin-register-box .success {
+  color: #388e3c;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.dashboard-container h2 {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+.user-table th, .user-table td {
+  border: 1px solid #e3eafc;
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+.user-table th {
+  background: #e3eafc;
+  color: #1976d2;
+}
+.user-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1565c0;
+}
+.error {
+  color: #d32f2f;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.success {
+  color: #388e3c;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
